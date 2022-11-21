@@ -5,12 +5,12 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>888-888-888
-          <span class="glyphicon glyphicon-envelope"></span>liyunkun_11@163.com
-          <span class="glyphicon glyphicon-time"></span>7x24小时为您服务
+          <span class="glyphicon glyphicon-earphone"></span>027-888-888
+          <span class="glyphicon glyphicon-envelope"></span>ECA@whut.edu.cn
+          <span class="glyphicon glyphicon-time"></span>7x24
         </div>
         <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>赶快联系我们吧！
+          <span class="glyphicon glyphicon-hand-right"></span>期待你的加入！
           <span class="glyphicon glyphicon-hand-left"></span>
         </div>
       </div>
@@ -93,37 +93,47 @@ export default {
           children: []
         },
         {
-          name: "软件产品",
+          name: "竞赛组织",
           path: "/software",
           children: [
             {
-              name: "智能小镇管理系统",
+              name: "全国大学生电子商务“创新、创意及创业”挑战赛",
+              //path: "/software/smartTown"
+              path: "http://www.3chuang.net/"
+            },
+            {
+              name: "全国供应链大赛",
               path: "/software/smartTown"
             },
             {
-              name: "大数据管理系统",
+              name: "”学创杯“全国大学生创业综合模拟大赛",
               path: "/software/bigData"
             }
           ]
         },
-        {
-          name: "相关服务",
-          path: "/service",
-          children: []
-        },
+        // {
+        //   name: "相关服务",
+        //   path: "/service",
+        //   children: []
+        // },
         {
           name: "新闻动态",
           path: "/newsinformation",
           children: []
         },
         {
-          name: "公司介绍",
+          name: "社团简介",
           path: "/companyintroduction",
           children: []
         },
+        // {
+        //   name: "工作机会",
+        //   path: "/jobchance",
+        //   children: []
+        // },
         {
-          name: "工作机会",
-          path: "/jobchance",
+          name: "社团风采",
+          path: "/contactus",
           children: []
         },
         {

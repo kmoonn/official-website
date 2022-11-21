@@ -6,7 +6,7 @@
                 <p style="color:#b2b2b2">Company News</p>
             </div>
             <div class="nav container text-center">
-                <a href="#" class="active">公司新闻</a>
+                <a href="#" class="active">社团新闻</a>
                 <a href="#">行业动态</a>
             </div>
             <ul class="news-container container-fuild">

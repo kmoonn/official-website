@@ -3,17 +3,18 @@
     <div class="logo">
       <img src="@/assets/img/logo_white.png" alt="logo图">
     </div>
-    <p class="title">公司企业网站模板</p>
+    <p class="title">武汉理工大学电子商务协会</p>
     <p class="address_tel_fax">
-      <span>地址：公司地址公司地址公司地址公司地址</span>
-      <span>Tel：888-888-888</span>
+      <span>地址：湖北省武汉市洪山区珞狮路122号</span>
+      <span>Tel：027-888-888</span>
       <span>Fax：8888-88888888</span>
     </p>
     <p class="email_wx">
-      <span>邮箱：liyunkun_11@163.com</span>
-      <span>公司微信号：ilyk_gg</span>
+      <span>邮箱：ECA@whut.edu.cn</span>
+      <span>官微：Whut_ECA</span>
+      <span>官Q：914961298</span>
     </p>
-    <p class="copy">Copyright &copy; 2018 - 2019 公司名称公司名称</p>
+    <p class="copy">Copyright &copy; 2020 - 2022 武汉理工大学电子商务协会</p>
   </div>
 </template>
 <script>

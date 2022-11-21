@@ -42,8 +42,8 @@
     <!-- 您身边的IT专家 -->
     <div id="contactUs" class="container-fuild text-center">
       <div class="container contactUs-container wow slideInUp">
-        <h1>您身边的IT专家</h1>
-        <h3>7x24小时提供出色的IT服务</h3>
+        <h1>武汉理工大学电子商务协会</h1>
+<!--        <h3>7x24小时提供出色的IT服务</h3>-->
         <button
           class="btn btn-default btn-sm"
           onmouseleave="this.style.borderColor='#ffffff'; this.style.backgroundColor='#ffffff'; this.style.color='#3f3f3f';"
@@ -59,7 +59,7 @@
     <!-- 客户评价 -->
     <div id="customer" class="container-fuild">
       <div class="container customer-container">
-        <p class="customer-title text-center">客户评价</p>
+        <p class="customer-title text-center">社团风采</p>
         <div class="swiper-container customer-swiper hidden-xs">
           <div class="swiper-wrapper">
             <div
@@ -105,8 +105,8 @@
     <div id="whyChooseUs" class="conatiner-fuild">
       <div class="container">
         <div class="whyChooseUs-title text-center">
-          <p>为什么选择我们的服务</p>
-          <p>THE REASON TO CHOOSING US</p>
+          <p>加入我们</p>
+          <p>TO JOIN US</p>
         </div>
         <div class="row">
           <div
@@ -145,27 +145,27 @@ export default {
         {
           img: require("@/assets/img/banner1.png"),
           path: "",
-          title: '您身边的IT专家1',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '武汉理工大学·电子商务协会',
+          content: 'WHUT Electronic Commerce Association',
         },
         {
           img: require("@/assets/img/banner2.jpg"),
           path: "",
-          title: '您身边的IT专家2',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+          title: '武汉理工大学·电子商务协会',
+          content: 'WHUT Electronic Commerce Association',
         },
-        {
-          img: require("@/assets/img/banner1.png"),
-          path: "",
-          title: '您身边的IT专家3',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        },
-        {
-          img: require("@/assets/img/banner2.jpg"),
-          path: "",
-          title: '您身边的IT专家4',
-          content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
-        }
+        // {
+        //   img: require("@/assets/img/banner1.png"),
+        //   path: "",
+        //   title: '您身边的IT专家3',
+        //   content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+        // },
+        // {
+        //   img: require("@/assets/img/banner2.jpg"),
+        //   path: "",
+        //   title: '您身边的IT专家4',
+        //   content: '宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介宣传简介',
+        // }
       ],
       customerList: [
         {

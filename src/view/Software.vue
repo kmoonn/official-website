@@ -3,7 +3,7 @@
         <div class="row">
             <div id="left" class="col-md-4 col-xs-12">
                 <ul class="left-container wow bounceInLeft">
-                    <p>软件产品</p>
+                    <p>竞赛组织</p>
                     <li v-for="(item,index) in softwareList" :key="index">
                         <router-link :to=item.path>{{item.name}}</router-link>
                     </li>
@@ -24,11 +24,14 @@ export default {
             softwareList: [
                 {
                     path: '/software/smartTown',
-                    name: '智能小镇管理系统'
+                    name: '全国大学生电子商务”创新、创意及创业挑战赛“'
                 },{
                     path: '/software/bigData',
-                    name: '大数据管理系统'
-                }
+                    name: '全国供应链大赛'
+                },{
+                    path: '/software/bigData',
+                    name: '”学创杯“全国大学生创业综合模拟赛'
+              }
             ]
         }
     },

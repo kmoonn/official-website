@@ -27,7 +27,7 @@ export default new Router({
           name: 'software',
           component: resolve => require(['@/view/Software'], resolve),
           meta: {
-            title: '软件产品'
+            title: '竞赛组织'
           },
           children: [
             {
@@ -39,7 +39,7 @@ export default new Router({
               name: 'software',
               component: resolve => require(['@/view/Software_smartTown'], resolve),
               meta: {
-                title: '软件产品丨智能小镇管理系统'
+                title: '竞赛组织丨全国大学生电子商务”创新、创意及创业“挑战赛'
               }
             },
             {
@@ -47,8 +47,18 @@ export default new Router({
               name: 'software',
               component: resolve => require(['@/view/Software_bigData'], resolve),
               meta: {
-                title: '软件产品丨大数据管理系统'
-              }
+                title: '竞赛组织丨全国供应链大赛'
+              },
+
+            },
+            {
+              path: '/software/bigData',
+              name: 'software',
+              component: resolve => require(['@/view/Software_bigData'], resolve),
+              meta: {
+                title: '竞赛组织丨”学创杯“全国大学生创业综合模拟大赛'
+              },
+
             }
           ]
         }, {
