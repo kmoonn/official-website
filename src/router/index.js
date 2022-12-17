@@ -20,7 +20,7 @@ export default new Router({
           name: 'home',
           component: resolve => require(['@/view/HomePage'], resolve),
           meta: {
-            title: '首页'
+            title: 'WHUT电子商务协会欢迎您'
           }
         }, {
           path: '/software',
@@ -35,7 +35,7 @@ export default new Router({
               redirect: '/software/smartTown'
             },
             {
-              path: '/software/smartTown',
+              path: 'http://www.3chuang.net/',
               name: 'software',
               component: resolve => require(['@/view/Software_smartTown'], resolve),
               meta: {

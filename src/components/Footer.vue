@@ -1,18 +1,18 @@
 <template>
   <div id="footer" class="container-fluid">
     <div class="logo">
-      <img src="@/assets/img/logo_white.png" alt="logo图">
+      <img src="@/assets/img/whutlogo.png" alt="logo图">
     </div>
     <p class="title">武汉理工大学电子商务协会</p>
     <p class="address_tel_fax">
       <span>地址：湖北省武汉市洪山区珞狮路122号</span>
-      <span>Tel：027-888-888</span>
-      <span>Fax：8888-88888888</span>
+      <!-- <span>Tel：027-888-888</span> -->
+      <!-- <span>Fax：8888-88888888</span> 传真-->
     </p>
     <p class="email_wx">
-      <span>邮箱：ECA@whut.edu.cn</span>
-      <span>官微：Whut_ECA</span>
-      <span>官Q：914961298</span>
+      <span>Email：ECA@whut.edu.cn</span>
+      <span>Wechat：Whut_ECA</span>
+      <span>QQ：914961298</span>
     </p>
     <p class="copy">Copyright &copy; 2020 - 2022 武汉理工大学电子商务协会</p>
   </div>
@@ -35,13 +35,13 @@ export default {
   text-align: center;
 }
 .logo {
-  width: 95px;
-  height: 45px;
-  margin: 50px auto 20px;
+  width: 100px;
+  height: 90px;
+  margin: auto 310px;
 }
 .title {
   font-size: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 2px;
 }
 .address_tel_fax {
   color: #d3d3d3;
@@ -50,7 +50,7 @@ export default {
 }
 .email_wx {
   color: #d3d3d3;
-  font-size: 14px;
+  font-size: 5px;
 }
 .copy {
   color: #d3d3d3;
@@ -62,15 +62,15 @@ export default {
     font-size: 20px;
   }
   .address_tel_fax {
-    font-size: 12px;
+    font-size: 15px;
   }
   .email_wx {
 
-  font-size: 12px;
+  font-size: 15px;
 }
 .copy {
-  font-size: 12px;
-  margin: 30px 0 10px;
+  font-size: 13px;
+  margin: 20px 0 10px;
 }
 }
 </style>

@@ -5,12 +5,12 @@
     <div class="header-top container-fuild hidden-xs">
       <div class="container">
         <div class="server pull-left">
-          <span class="glyphicon glyphicon-earphone"></span>027-888-888
-          <span class="glyphicon glyphicon-envelope"></span>ECA@whut.edu.cn
-          <span class="glyphicon glyphicon-time"></span>7x24
+          <!-- <span class="glyphicon glyphicon-earphone"></span>027-888-888 -->
+          <span class="glyphicon glyphicon-envelope"></span>eca@whut.edu.cn
+          <!-- <span class="glyphicon glyphicon-time"></span>7x24 -->
         </div>
         <div class="shejiao pull-right">
-          <span class="glyphicon glyphicon-hand-right"></span>期待你的加入！
+          <span class="glyphicon glyphicon-hand-right"></span>风里雨里都等你~
           <span class="glyphicon glyphicon-hand-left"></span>
         </div>
       </div>
@@ -19,7 +19,7 @@
     <div class="header-nav container hidden-xs">
       <!-- 导航logo -->
       <div class="header-nav-logo">
-        <img src="@/assets/img/logo_black.png">
+        <img src="@/assets/img/whutlogo.png">
       </div>
       <!-- 导航内容 -->
       <ul class="header-nav-wrapper">
@@ -45,7 +45,7 @@
     <!-- 手机导航 -->
     <div class="header-nav-m container-fuild visible-xs">
       <div class="header-nav-m-logo">
-        <img class="center-block" src="@/assets/img/logo_black.png" alt="logo">
+        <img class="center-block" src="@/assets/img/whutlogo.png" alt="logo">
       </div>
       <!-- 导航栏 -->
       <div class="header-nav-m-menu text-center">
@@ -98,27 +98,34 @@ export default {
           children: [
             {
               name: "全国大学生电子商务“创新、创意及创业”挑战赛",
-              //path: "/software/smartTown"
+              // path: "/software/smartTown"
               path: "http://www.3chuang.net/"
             },
             {
               name: "全国供应链大赛",
-              path: "/software/smartTown"
+              // path: "/software/smartTown"
+              path: "http://gylds.clpp.org.cn/"
             },
             {
               name: "”学创杯“全国大学生创业综合模拟大赛",
-              path: "/software/bigData"
+              // path: "/software/bigData"
+              path: "http://www.bster.cn/cyds/index"
             }
           ]
         },
-        // {
-        //   name: "相关服务",
-        //   path: "/service",
-        //   children: []
-        // },
         {
           name: "新闻动态",
           path: "/newsinformation",
+          children: []
+        },
+        {
+          name: "相关服务",
+          path: "/service",
+          children: []
+        },
+        {
+          name: "社团风采",
+          path: "/contactus",
           children: []
         },
         {
@@ -126,14 +133,9 @@ export default {
           path: "/companyintroduction",
           children: []
         },
-        // {
-        //   name: "工作机会",
-        //   path: "/jobchance",
-        //   children: []
-        // },
         {
-          name: "社团风采",
-          path: "/contactus",
+          name: "加入我们",
+          path: "/jobchance",
           children: []
         },
         {
@@ -167,15 +169,15 @@ export default {
   transition: all ease 0.6s;
 }
 #header .header-top {
-  height: 50px;
-  color: #fff;
+  height: 30px;
+  color: rgb(253, 253, 253);
   font-size: 12px;
-  line-height: 50px;
+  line-height: 30px;
   background: #474747;
 }
 /* 顶部的图标 */
 #header .header-top span {
-  margin: 0 8px;
+  margin: 0 2px;
 }
 /* 导航栏 */
 #header .header-nav {
@@ -183,15 +185,15 @@ export default {
 }
 /* 导航栏logo */
 #header .header-nav .header-nav-logo {
-  width: 100px;
+  width: 200px;
   height: 100%;
   float: left;
   position: relative;
 }
 /* 导航栏logo图片 */
 #header .header-nav .header-nav-logo img {
-  width: 95px;
-  height: 45px;
+  width: 250px;
+  height: 80px;
   position: absolute;
   top: 0;
   left: 0;
@@ -288,7 +290,7 @@ export default {
 }
 #header .header-nav .header-nav-wrapper > li > dl > dt:hover {
   cursor: pointer;
-  background: #ccc;
+  background: #fff;
 }
 @media screen and (max-width: 997px) {
   #header .header-nav-m {
